@@ -3,5 +3,5 @@
 ## Run
 
 - `yarn install`
-- `yarn dev`
+- `yarn start`
 - http://localhost:3000

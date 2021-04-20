@@ -26,7 +26,7 @@ const ButtonWrapper = styled.div`
   }
 `;
 
-export function HomePage() {
+export const HomePage = () => {
   const history = useHistory();
   const onClick = user => {
     history.push('/user', {
@@ -52,4 +52,4 @@ export function HomePage() {
       </Layout>
     </>
   );
-}
+};
